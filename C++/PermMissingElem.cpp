@@ -7,7 +7,7 @@ int solution(vector<int> &A) {
     {
     OccuringArray[i]=0;
     }
-    int MissingElement=0;
+    int MissingElement=1;
    for(unsigned int i=0;i<A.size();i++)
     {
         OccuringArray[A[i]-1]=1;
